@@ -1,0 +1,30 @@
+<div>
+	<h1>Text Support</h1>
+
+	<div class="message-box" ng-repeat="number in numbers">
+		<p class="blue">From {{number.$id.replace('1','')}}</p>
+		
+	
+	<div ng-repeat="(key, value) in number" > 
+	<p class='phone-num'>{{value.date_sent | date: 'short'}} {{value.dateCreated | date: 'short'}}<p>
+		<p>{{value.body}} </p> 
+		
+		</div>
+
+	<form ng-submit='response(number.$id, responseMessage)'>
+		<input type='text' ng-model='responseMessage.message' placeholder="Help this person out . . ."/>
+		<input ng-model='number.$id'/>
+		<button>Send Response Text</button>
+
+	</form>
+	
+
+</div>
+
+<div>
+	<h3>For more information please check out:</h3>
+	<ul>
+		<li><a href='#/support/resources/FakeCeaseandDesist.pdf'>CeaseAndDesist</a></li>
+		<li><a>Cease and Desist</a></li>
+	</ul>
+</div>

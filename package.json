@@ -1,0 +1,24 @@
+{
+  "name": "TextSupport",
+  "version": "1.0.0",
+  "description": "Text Support",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarkTonkinson/TextSupport.git"
+  },
+  "author": "Mark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkTonkinson/TextSupport/issues"
+  },
+  "homepage": "https://github.com/MarkTonkinson/TextSupport",
+  "dependencies": {
+    "express": "^4.9.7",
+    "firebase": "^1.1.2",
+    "twilio": "^1.7.0"
+  }
+}

@@ -1,0 +1,47 @@
+body {
+	font-size: 1.5rem;
+}
+
+input {
+	padding:5px;
+	font-size:.8rem;
+	
+}
+
+button {
+	height: 1.8rem;
+	background-color: rgba(45,145,200,1);
+}
+
+.message-box {
+	border: 1px solid gray;
+	border-left:10px solid rgba(45,145,200,1);
+	border-radius: 3px;
+	width:80%;
+	height: 20%;
+	margin-top:20px;
+	padding: 5px;
+
+}
+
+.object {
+	width:80%;
+	height:700px;
+}
+
+.blue {
+	color: rgba(45,145,200,1);
+}
+
+.green {
+	color: rgb(120,200,100);
+}
+
+.center {
+	text-align: center;
+}
+.phone-num {
+	color:red;
+	background-color: rgb(255,200,200);
+	width:35%;
+}
