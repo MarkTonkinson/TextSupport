@@ -4,12 +4,15 @@ body {
 
 input {
 	padding:5px;
-	font-size:.8rem;
+	font-size:1rem;
 	
+}
+.help-input {
+	width:45%;
 }
 
 button {
-	height: 1.8rem;
+	height: 2rem;
 	background-color: rgba(45,145,200,1);
 }
 
